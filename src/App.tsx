@@ -1,10 +1,12 @@
 import React from 'react';
+import Dashboard from "./screens/dashboard/Dashboard";
+import AppTheme from "./settings/AppTheme";
 
 function App() {
   return (
-      <h1>
-        Initial
-      </h1>
+          <AppTheme>
+              <Dashboard />
+          </AppTheme>
   );
 }
 
